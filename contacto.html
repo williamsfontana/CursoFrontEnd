@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google" content="notranslate" />
+	<title>Impresiones - Contacto</title>
+	<link rel="icon" href="public/images/impresiones.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+	<div class="contacto-html">
+		<header class="header">
+			<a href="./index.html">
+				<img src="public/images/impresiones.png" alt=" " class="img-res">
+			</a>
+			<div class="header-left">
+				<ul class="list">
+					<li class="item">
+						<a href="./index.html" class="href href-1200">HOME</a>
+					</li>
+					<li class="item">
+						<a href="./productos_y_servicios.html" class="href href-1200">PRODUCTOS|SERVICIOS</a>
+					</li>
+					<li class="item">
+						<a href="#" class="href href-1200">APP</a>
+					</li>
+					<li class="item">
+						<a href="./contacto.html" class="href href-1200">CONTACTO</a>
+					</li>
+					<li class="item">
+						<a href="./ingreso_cliente.html" class="href href-1200">INGRESAR|REGISTRARME</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-right dy-none">
+				<ul>
+					<li class="menu">
+						<img src="public/images/menu.png" id="menu" class="menu-img" alt=" ">
+						<img src="public/images/menu.png" id="menu2" class="menu-img menu-img2" alt=" ">
+					</li>
+					<ul class="list-right" id="list-right">
+						<li class="item-right">
+							<a href="./sobre_nosotros.html" class="href">SOBRE NOSOTROS</a>
+						</li>
+						<li class="item-right">
+							<a href="./impresiones_online.html" class="href">IMPRESIONES ONLINE</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="header-right header-right-res">
+				<ul>
+					<li class="menu">
+						<img src="public/images/menu.png" id="menu-res" class="menu-img" alt=" ">
+						<img src="public/images/menu.png" id="menu2-res" class="menu-img menu-img2" alt=" ">
+					</li>
+					<ul class="list-right-res" id="list-right-res">
+						<li class="item-right">
+							<a href="./sobre_nosotros.html" class="href">SOBRE NOSOTROS</a>
+						</li>
+						<li class="item-right">
+							<a href="./impresiones_online.html" class="href">COPYMASTER ONLINE</a>
+						</li>
+						<li class="item-right">
+							<a href="./productos_y_servicios.html" class="href">PRODUCTOS|SERVICIOS</a>
+						</li>
+						<li class="item-right">
+							<a href="./ingreso_cliente.html" class="href">INGRESAR|REGISTRARME</a>
+						</li>
+						<li class="item-right">
+							<a href="./index.html" class="href">HOME</a>
+						</li>
+						<li class="item-right">
+							<a href="#" class="href">APP</a>
+						</li>
+						<li class="item-right">
+							<a href="./contacto.html" class="href">CONTACTO</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+			<script>
+				const menu = document.getElementById('menu');
+				menu.addEventListener('click', barra, true);
+				const menu2 = document.getElementById('menu2');
+				menu2.addEventListener('click', barra2, true);
+				const menuRes = document.getElementById('menu-res');
+				menuRes.addEventListener('click', barraRes, true);
+				const menuRes2 = document.getElementById('menu2-res');
+				menuRes2.addEventListener('click', barraRes2, true);
+
+				function barra() {
+				document.getElementById('menu').style.visibility = 'hidden';
+				document.getElementById('menu2').style.visibility = 'visible';
+				document.getElementById('list-right').style.visibility = 'visible';}
+				function barra2() {
+				document.getElementById('menu').style.visibility = 'visible';
+				document.getElementById('menu2').style.visibility = 'hidden';
+				document.getElementById('list-right').style.visibility = 'hidden';}
+				function barraRes() {
+				document.getElementById('menu-res').style.visibility = 'hidden';
+				document.getElementById('menu2-res').style.visibility = 'visible';
+				document.getElementById('list-right-res').style.visibility = 'visible';}
+				function barraRes2() {
+				document.getElementById('menu-res').style.visibility = 'visible';
+				document.getElementById('menu2-res').style.visibility = 'hidden';
+				document.getElementById('list-right-res').style.visibility = 'hidden';}
+
+			</script>
+		</header>
+		<div class="center-contacto">
+			<div class="contacto-left">
+				<div class="contacto-map">
+					<iframe class="contacto-map" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=858&amp;height=353&amp;hl=en&amp;q=%20Reconquista+(Impresiones)&amp;t=p&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.symptoma.es/es/info/covid-19'>t</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=58daca618eae79e150a62103f81ed3d70858ae3b'></script>
+				</div>
+				<form action="#" class="contacto-msg">
+					<div class="contacto-msg-left">
+						<input type="text" class="input-cnt-left" placeholder="Nombre">
+						<input type="email" class="input-cnt-left" placeholder="Email">
+						<input type="text" class="input-cnt-left" placeholder="Teléfono">
+					</div>
+					<div class="contacto-msg-right">
+						<input type="text" class="input-cnt-left cnt-padding" placeholder="Asunto">
+						<textarea class="input-cnt-right" placeholder="Mensaje"></textarea>
+						<input type="submit" value="ENVIAR MENSAJE" class="input-cnt-button">
+					</div>
+				</form>
+			</div>
+			<div class="contacto-right">
+				<div class="contacto-right-div">
+					<h2 class="contacto-title">IMPRESIONES - SUCURSAL XXXXXXXX</h2>
+					<p class="contacto-text contacto-margin"> Xxxxxxx 555, Xxxxxxxx (Xxxxxx)<br>Teléfono: 55555 55-55555<br>WhatsApp: +55 5555-555555 <br>E-mail: Xxxxxxxxx@xxxxxxx.com</p>
+				</div>
+				<div class="contacto-right-div">
+					<h2 class="contacto-title">IMPRESIONES - SUCURSAL XXXXXXXXX</h2>
+					<p class="contacto-text contacto-margin">Xxxxxxxx 666, Xxxxxxxxx (Xxxxxxxx)<br>WhatsApp: +55 5555-555555<br>E-mail: Xxxxxxx@xxxxxxxxxxx.com</p>
+				</div>
+				<div class="contacto-right-div">
+					<h2 class="contacto-title">IMPRESIONES - SUCURSAL XXXXXXXXXXX</h2>
+					<p class="contacto-text">Xxxxxxxx 5555, Xxxxxxx (Xxxxxxxxx)<br>WhatsApp: +55 5555-555555<br>E-mail: Xxxxxxxxx@xxxxxxxx.com</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-horarios">
+			<div class="footer-txt">HORARIOS</div>
+			<div class="footer-content">
+				<p class="white-hard">Lunes a Viernes</p>
+				<p class="white">08:00 a 12:00 - 16:00 a 20:00</p>
+				<p class="white-hard">Sábados</p>
+				<p class="white">08:00 a 12:00</p>
+			</div>
+		</div>
+		<div class="footer-contacto">
+			<div class="footer-txt">CONTACTO</div>
+			<div class="footer-content">
+				<div class="contacto">
+					<img src="public/images/ubicacion.png" class="ico" alt=" ">
+					<p class="white">Xxxxxxxxxx 555, Xxxxxxxxx, Xxxxxxx</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/telefono.png" class="ico" alt=" ">
+					<p class="white">+55 55555 555555</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/whatsapp.png" class="ico" alt=" ">
+					<p class="white">+55 5555 555555</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-accesos">
+			<div class="footer-txt">ACCESOS</div>
+			<div class="footer-content">
+				<div><a href="./index.html" class="href"><p class="white">Home</p></a></div>
+				<div><a href="./registro_cliente.html" class="href"><p class="white">Ingresar | Registrarme</p></a></div>
+				<div><a href="./productos_y_servicios.html" class="href"><p class="white">Productos | Servicios</p></a></div>
+				<div><a href="#" class="href"><p class="white">App</p></a></div>
+			</div>
+		</div>
+		<div class="footer-img contacto-bottom-res">
+			<a href="/index.html">
+				<img src="public/images/impresiones.png" class="footer-logo" alt=" " >
+			</a>
+		</div>
+	</footer>
+</body>
+</html>
