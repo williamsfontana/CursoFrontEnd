@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="google" content="notranslate" />
+	<title>Red CopyMaster - Ordenes de trabajo</title>
+	<link rel="icon" href="public/images/impresiones.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+	<div class="nueva_orden">
+		<header class="header">
+			<a href="./index.html">
+				<img src="public/images/impresiones.png" alt=" " class="img-res">
+			</a>
+			<div class="header-left">
+				<ul class="list">
+					<li class="item">
+						<a href="./index.html" class="href href-1200">HOME</a>
+					</li>
+					<li class="item">
+						<a href="./productos_y_servicios.html" class="href href-1200">PRODUCTOS|SERVICIOS</a>
+					</li>
+					<li class="item">
+						<a href="#" class="href href-1200">APP</a>
+					</li>
+					<li class="item">
+						<a href="./contacto.html" class="href href-1200">CONTACTO</a>
+					</li>
+					<li class="item">
+						<a href="./ingreso_cliente.html" class="href href-1200">INGRESAR|REGISTRARME</a>
+					</li>
+				</ul>
+			</div>
+			<div class="header-right dy-none">
+				<ul>
+					<li class="menu">
+						<img src="public/images/menu.png" id="menu" class="menu-img" alt=" ">
+						<img src="public/images/menu.png" id="menu2" class="menu-img menu-img2" alt=" ">
+					</li>
+					<ul class="list-right bg-cf" id="list-right">
+						<li class="item-right">
+							<a href="./sobre_nosotros.html" class="href">SOBRE NOSOTROS</a>
+						</li>
+						<li class="item-right">
+							<a href="./impresiones_online.html" class="href">IMPRESIONES ONLINE</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+			<div class="header-right header-right-res">
+				<ul>
+					<li class="menu">
+						<img src="public/images/menu.png" id="menu-res" class="menu-img" alt=" ">
+						<img src="public/images/menu.png" id="menu2-res" class="menu-img menu-img2" alt=" ">
+					</li>
+					<ul class="list-right-res bg-cf" id="list-right-res">
+						<li class="item-right">
+							<a href="./sobre_nosotros.html" class="href">SOBRE NOSOTROS</a>
+						</li>
+						<li class="item-right">
+							<a href="./impresiones_online.html" class="href">IMPRESIONES ONLINE</a>
+						</li>
+						<li class="item-right">
+							<a href="./productos_y_servicios.html" class="href">PRODUCTOS|SERVICIOS</a>
+						</li>
+						<li class="item-right">
+							<a href="./ingreso_cliente.html" class="href">INGRESAR|REGISTRARME</a>
+						</li>
+						<li class="item-right">
+							<a href="./index.html" class="href">HOME</a>
+						</li>
+						<li class="item-right">
+							<a href="#" class="href">APP</a>
+						</li>
+						<li class="item-right">
+							<a href="./contacto.html" class="href">CONTACTO</a>
+						</li>
+					</ul>
+				</ul>
+			</div>
+			<script>
+				const menu = document.getElementById('menu');
+				menu.addEventListener('click', barra, true);
+				const menu2 = document.getElementById('menu2');
+				menu2.addEventListener('click', barra2, true);
+				const menuRes = document.getElementById('menu-res');
+				menuRes.addEventListener('click', barraRes, true);
+				const menuRes2 = document.getElementById('menu2-res');
+				menuRes2.addEventListener('click', barraRes2, true);
+
+				function barra() {
+				document.getElementById('menu').style.visibility = 'hidden';
+				document.getElementById('menu2').style.visibility = 'visible';
+				document.getElementById('list-right').style.visibility = 'visible';}
+				function barra2() {
+				document.getElementById('menu').style.visibility = 'visible';
+				document.getElementById('menu2').style.visibility = 'hidden';
+				document.getElementById('list-right').style.visibility = 'hidden';}
+				function barraRes() {
+				document.getElementById('menu-res').style.visibility = 'hidden';
+				document.getElementById('menu2-res').style.visibility = 'visible';
+				document.getElementById('list-right-res').style.visibility = 'visible';}
+				function barraRes2() {
+				document.getElementById('menu-res').style.visibility = 'visible';
+				document.getElementById('menu2-res').style.visibility = 'hidden';
+				document.getElementById('list-right-res').style.visibility = 'hidden';}
+
+			</script>
+		</header>
+		<div class="orden-left nueva-orden-left">
+			<a href="./index.html">
+				<img src="public/images/impresiones.png" class="orden-logo" alt=" ">
+			</a>
+			<a href="./mi_perfil.html">
+				<input type="button" value="MI PERFIL" class="orden-btn-left nueva-orden-btn-left">
+			</a>
+			<a href="#">
+				<input type="button" value="CERRAR SESIÓN" class="orden-btn-left nueva-orden-btn-left mg-top-none">
+			</a>
+		</div>
+		<div class="center-registro orden-center">
+			<h1 class="registro-title ordenes-title">ÓRDENES DE TRABAJO</h1>
+			<a href="./nueva_orden.html" class="btn-orden">NUEVA ORDEN</a>
+			<div class="ordenes">
+				<h5 class="ordenes-num">Nº DE ORDEN</h5>
+				<h5 class="ordenes-num ordenes-info">INFO</h5>
+				<h5 class="ordenes-num ordenes-cliente">CLIENTE</h5>
+				<h5 class="ordenes-num ordenes-estado">ESTADO</h5>
+				<h5 class="ordenes-num">FECHA</h5>
+				<h5 class="ordenes-num ordenes-sistema">SISTEMA</h5>
+			</div>
+
+				<div class="ordenes">
+					<h5 class="ordenes-num orden-light ordenes-num" id="ID_Orden">1</h5>
+					<a href="#" class="ordenes-num orden-light ordenes-info">
+						<input type="button" class="orden-input-info orden-light" name="" value="Más info">
+					</a>
+					<h5 class="ordenes-num orden-light ordenes-cliente">Name</h5>
+					<h5 id="estado" class="ordenes-num orden-light ordenes-estado">Espera</h5>
+					<h5 class="ordenes-num orden-light">55/55/5555</h5>
+					<h5 class="ordenes-num orden-light ordenes-sistema">Web</h5>
+				</div>
+
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-horarios">
+			<div class="footer-txt">HORARIOS</div>
+			<div class="footer-content">
+				<p class="white-hard">Lunes a Viernes</p>
+				<p class="white">08:00 a 12:00 - 16:00 a 20:00</p>
+				<p class="white-hard">Sábados</p>
+				<p class="white">08:00 a 12:00</p>
+			</div>
+		</div>
+		<div class="footer-contacto">
+			<div class="footer-txt">CONTACTO</div>
+			<div class="footer-content">
+				<div class="contacto">
+					<img src="public/images/ubicacion.png" class="ico" alt=" ">
+					<p class="white">Xxxxxxx 555, Xxxxxxxxxx, Xxxxxxxx</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/telefono.png" class="ico" alt=" ">
+					<p class="white">+55 55555 555555</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/whatsapp.png" class="ico" alt=" ">
+					<p class="white">+55 5555 555555</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-accesos">
+			<div class="footer-txt">ACCESOS</div>
+			<div class="footer-content">
+				<div><a href="./index.html" class="href"><p class="white">Home</p></a></div>
+				<div><a href="./registro_cliente.html" class="href"><p class="white">Ingresar | Registrarme</p></a></div>
+				<div><a href="./productos_y_servicios.html" class="href"><p class="white">Productos | Servicios</p></a></div>
+				<div><a href="#" class="href"><p class="white">App</p></a></div>
+			</div>
+		</div>
+		<div class="footer-img">
+			<a href="./index.html">
+				<img src="public/images/impresiones.png" class="footer-logo" alt=" " >
+			</a>
+		</div>
+	</footer>
+</body>
+</html>

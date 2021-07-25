@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Impresiones - Biblioteca</title>
+	<link rel="icon" href="public/images/impresiones.ico">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.24/css/dataTables.bootstrap5.min.css">
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+</head>
+<body>
+	<div class="nueva_orden">
+		<div class="ordenes-btn-admin">
+			<a href="./nueva_orden.html">
+				<input type="button" value="Volver" class="btn-ord-admin marg-lft">
+			</a>
+		</div>
+		<div class="center-registro orden-admin-center">
+			<h1 class="registro-title ordenes-title">BIBLIOTECA</h1>
+			<div class="bb-navegador">
+				<a class="navegador-bb" href="/biblioteca">General ></a>
+			</div>
+			<table id="ordenes" class="table table-striped" style="width:100%">
+    	 	   <thead class="admin-ordenes-title">
+    	    	    <tr>
+        		        <th class="admin-title">ARCHIVO</th>
+            		    <th class="admin-title">F/INGRESO</th>
+            	    	<th class="admin-title">TIT</th>
+            	 	    <th class="admin-title">C/D</th>
+            	 	    <th class="admin-title">C/S</th>
+            	 	    <th class="admin-title">A/N</th>
+            	 	    <th class="admin-title">$ SUG</th>
+            	 	    <th class="admin-title">PROF</th>
+            	 	    <th class="admin-title">DESC</th>
+            	 	    <th class="admin-title">ACCIONES</th>
+            		</tr>
+        		</thead>
+        		<tbody>
+				
+				<tr class="admin-ordenes-content">
+					<td class="admin-content-light">
+						<a href="#" class="div-bb-file">
+							<img src="public/images/folder.png" class="img-bb-file">
+							<h3 class="text-bb-file">Name</h3>		
+						</a>
+					</td>
+                	<td class="admin-content-light">55/55/5555</td>
+                	<td class="admin-content-light">libro 1</td>
+                	<td class="admin-content-light"></td>
+                	<td class="admin-content-light"></td>
+            	    <td class="admin-content-light"></td>
+            	    <td class="admin-content-light"></td>
+            	    <td class="admin-content-light"></td>
+            	    <td class="admin-content-light"></td>
+            	    <td class="admin-content-light">
+            	    </td>
+           		</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer-horarios">
+			<div class="footer-txt">HORARIOS</div>
+			<div class="footer-content">
+				<p class="white-hard">Lunes a Viernes</p>
+				<p class="white">08:00 a 12:00 - 16:00 a 20:00</p>
+				<p class="white-hard">Sábados</p>
+				<p class="white">08:00 a 12:00</p>
+			</div>
+		</div>
+		<div class="footer-contacto">
+			<div class="footer-txt">CONTACTO</div>
+			<div class="footer-content">
+				<div class="contacto">
+					<img src="public/images/ubicacion.png" class="ico" alt=" ">
+					<p class="white">Xxxxxxx 555, Xxxxxxxxxx, Xxxxxxxx</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/telefono.png" class="ico" alt=" ">
+					<p class="white">+55 55555 555555</p>
+				</div>
+				<div class="contacto">
+					<img src="public/images/whatsapp.png" class="ico" alt=" ">
+					<p class="white">+55 5555 555555</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer-accesos">
+			<div class="footer-txt">ACCESOS</div>
+			<div class="footer-content">
+				<div><a href="./index.html" class="href"><p class="white">Home</p></a></div>
+				<div><a href="./registro_cliente.html" class="href"><p class="white">Ingresar | Registrarme</p></a></div>
+				<div><a href="./productos_y_servicios.html" class="href"><p class="white">Productos | Servicios</p></a></div>
+				<div><a href="#" class="href"><p class="white">App</p></a></div>
+			</div>
+		</div>
+		<div class="footer-img">
+			<a href="./index.html">
+				<img src="public/images/impresiones.png" class="footer-logo" alt=" " >
+			</a>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	<script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/1.10.24/js/dataTables.bootstrap5.min.js"></script>
+	<script>
+		$(document).ready(function() { $('#ordenes').DataTable();});
+	</script>
+
+</body>
+</html>

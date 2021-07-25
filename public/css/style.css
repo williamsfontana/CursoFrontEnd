@@ -701,13 +701,6 @@ p {
 .registro-check { margin-left: 30px; }
 .lbl-check { margin-left: 10px; }
 
-.nueva-opacity {
-	width: 75%;
-	height: 80%;
-	right: -250px;
-	top: 50px;
-}
-
 .orden-center {
 	width: 75%;
 	height: 80%;
@@ -770,7 +763,7 @@ p {
 	width: 15%;
 	margin-left: 4%;
 	position: relative;
-	top: -180px;
+	top: -130px;
 }
 
 .orden-logo { width: 100%; margin-bottom: 20px; cursor: pointer;}
@@ -1075,7 +1068,16 @@ p {
 }
 
 .ordenes-admin-op { width: 95%; height: 85%; top: 60px; }
-.orden-admin-center { width: 90%; top: -200px; color: #fff;  height: 600px; top: 15px; overflow: auto; }
+.orden-admin-center { 
+	width: 90%;
+	top: -200px;
+	color: #fff;
+	height: 600px;
+	top: 15px;
+	overflow: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+}
 .admin-title { color: #fff; border-bottom: 1px solid #ed4100; text-align: center; }
 .admin-content-light { color: #fff; font-weight: 300; text-align: center; }
 .admin-ordenes-content { border-radius: 50%; border: 1px solid #ed4100; }
@@ -1245,10 +1247,10 @@ p {
 	.registro-two-dni { width: 40%; font-size: 15px;}
 	.ingresar-btn, .btn-rest-volver { font-size: 10px; }
 	.btn-orden { height: 22px; font-size: 15px; }
-	.orden-center, .nueva-opacity { width: 65%; }
+	.orden-center { width: 65%; }
 	.orden-center { padding: 0;}
 	.orden-btn-left { width: 100%; }
-	.nueva-orden-center, .nueva-orden-opacity { width: 70%; right: -240px;}
+	.nueva-orden-center { width: 70%; right: -240px;}
 	.lbl-new-orden { font-size: 10px; }	
 	.select-bb { width: 20%; font-size: 12px; }
 	.last-new-orden { width: 50%; }
@@ -1268,10 +1270,10 @@ p {
 	.onl-btn { font-size: 12px; }
 	.registro-opacity, .center-registro { width: 40%; }
 	.ingresar-btn, .btn-rest-volver { font-size: 12px; }
-	.orden-center, .nueva-opacity { width: 70%; left: -70px; }
+	.orden-center { width: 70%; left: -70px; }
 	.orden-btn-left { font-size: 15px; }
 	.btn-orden { width: 20%; }
-	.nueva-orden-center, .nueva-orden-opacity { width: 75%; }
+	.nueva-orden-center { width: 70%; }
 	.select-new, .select-file-h3, .select-url { font-size: 12px; }
 	.last-label { font-size: 12px; width: 55%; }
 	.last-text-copia { margin-left: 57%; }
@@ -1321,7 +1323,7 @@ p {
 	.contacto-right { width: 100%; align-items: center; padding-right: 0; margin-top: 30px; }
 	.contacto-text { margin-bottom: 30px; }
 	.contacto-html { height: 1000px; }
-	.registro-opacity, .center-registro { width: 50%; }
+	.center-registro { width: 50%; }
 	.registro-check { margin-left: 50px; }
 	.btn-ingresar { display: block;}
 	.ingresar-btn { width: fit-content; }
@@ -1330,9 +1332,8 @@ p {
 	.reg-bg { width: 100%; }
 	.orden-logo { display: none; }
 	.orden-left {width: 40%; margin-top: 10px; margin-left: 0;}
-	.orden-center { width: 100%; left: 0; right: 0; top: -10px; height: 400px; }
+	.orden-center { width: 90%; left: 0; right: 0; top: -10px; height: 400px; }
 	.ordenes-res-quit { display: none; }
-	.nueva-opacity { width: 95%; left: 0; right: 0; height: 75%; top: 140px;}
 	.first-select { display: block; }
 	.first-select-div { width: 80%; margin-bottom: 15px; }
 	.select-new-margin { margin-top: -10px; margin-left: 15%; }
@@ -1385,10 +1386,10 @@ p {
 	.cf-buttons { flex-direction: column; align-items: center; }
 	.cf-560 { margin-bottom: 20px; }
 	.center-sn { top: 120px; }
-	.registro-opacity, .center-registro { width: 80%; }
-	.center-ingreso, .ingreso-opacity { width: 90%; padding: 0; padding-bottom: 20px; }
+	.center-registro { width: 80%; }
+	.center-ingreso{ width: 90%; padding: 0; padding-bottom: 20px; }
 	.ordenes-num { font-size: 10px; }
-	.orden-center, .nueva-opacity { width: 95%; }
+	.orden-center { width: 95%; }
 	.btn-orden { width: 30%; font-size: 10px; padding-top: 8px;}
 	.select-new { width: 100%; }
 	.first-select-forma-res { width: 38%; }
